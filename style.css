@@ -7,12 +7,12 @@
 
 .sidebar {
   background-color: antiquewhite;
-  width: 350px;
+  width: 190px;
   font-family: "JetBrains Mono", monospace;
 }
 
 .sidebar nav {
-  padding: 10px;
+  padding: 17px;
   font-size: 20px;
   height: 100vh;
 }
