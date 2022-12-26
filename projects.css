@@ -36,18 +36,3 @@
     }
   }
 
-  .buttons button {
-    font-size: 14px;
-    padding: 7px 13px;
-    border-radius: 31px;
-    background-color: sandybrown;
-    color: rgb(0, 0, 0);
-    margin: 2px 3px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  .buttons button:hover {
-    color: sandybrown;
-    background-color: black;
-  }
