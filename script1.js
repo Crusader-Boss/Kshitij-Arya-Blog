@@ -1,5 +1,3 @@
-// sorry for the spaghetti code and redundant variables, i wasn't exactly a good coder back then
-
 const cols = 3;
 const main = document.getElementById('main');
 let parts = [];
