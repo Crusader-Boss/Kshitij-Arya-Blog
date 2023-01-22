@@ -85,7 +85,7 @@
 }
 
 .buttons {
-  margin-top: 24px;
+  margin-top: 38px;
 }
 
 .buttons button {
@@ -97,6 +97,7 @@
   margin: 2px 3px;
   font-weight: bold;
   cursor: pointer;
+  vertical-align: top;
 }
 
 .buttons button:hover {
