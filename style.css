@@ -14,7 +14,7 @@
 .sidebar nav {
   padding: 17px;
   font-size: 20px;
-  height: 1000vh;
+  height: 100vh;
 }
 
 .sidebar nav li {
@@ -33,8 +33,9 @@
 }
 
 .main {
-  /* background-color: yellow; */
+  background-color: rgb(248, 246, 119);
   width: 88vw;
+  height: auto;
 }
 
 .container {
@@ -43,9 +44,9 @@
 
 .infocontainer {
   background-color: cornsilk;
-  height: 58vh;
-  width: 80vw;
-  margin: 145px auto;
+  height: 93vh;
+  width: 82vw;
+  margin: 80px 0;
   justify-content: space-around;
   display: flex;
 }
@@ -106,7 +107,7 @@
 }
 
 .devpic img {
-  height: 58vh;
+  height: 88vh;
   width: auto;
 }
 
@@ -122,13 +123,16 @@
 }
 
 .contactform div {
-  padding: 10px 0;
+  padding: 0px 0px;
   display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
-
 .contactform div input {
-  width: 16vw;
+  width: 30vw;
   border-radius: 11px;
   margin: 6px 0 0 0;
   padding: 5px;
@@ -147,4 +151,17 @@
 #form-check input {
   width: 17px;
   margin: 6px;
+}
+
+.form-label {
+  cursor: pointer;
+}
+
+.form-label:hover + .ps {
+  display: block;
+  color: rgb(236, 149, 17);
+}
+
+.ps {
+  display: none;
 }
