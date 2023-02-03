@@ -3,7 +3,6 @@
 * {
   padding: 0;
   margin: 0;
-  height: max-content;
 }
 
 .container {
@@ -18,8 +17,8 @@
     rgb(234, 88, 51) 84%
   );
   align-items: center;
-  height: auto;
-  width: auto;
+  height: 6vh;
+  width: 100%;
 }
 
 .sidebar {
@@ -29,22 +28,54 @@
     rgb(255, 76, 168) 33%,
     rgb(237, 35, 79) 100%
   );
-  width: 290px;
+  width: 100%;
   font-family: "JetBrains Mono", monospace;
-  border-radius: 25px;
-  margin-left: 10px;
-  height: 50vh;
+  height: 6vh;
+  justify-content: space-between;
+  position: fixed;
+}
+
+ul {
+  display: flex;
+  margin-block-start: -2em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 5px;
+  padding-inline-start: 4px;
+  flex-direction: row;
+}
+
+.hfiller {
+  width: 450px;
+}
+
+.icons {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  position: relative;
+  justify-content: right;
+}
+
+.icons button:hover {
+  color: sandybrown;
+  background-color: black;
 }
 
 .sidebar nav {
-  padding: 17px;
+  display: flex;
+  padding: 15px;
   font-size: 20px;
+  align-items: center;
 }
 
 .sidebar nav li {
   list-style: none;
-  padding: 10px;
+  padding: 30px;
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
 }
 
 .sidebar nav li a:hover {
@@ -57,7 +88,7 @@
 }
 
 .main {
-  background: linear-gradient(
+  /* background: linear-gradient(
     45deg,
     rgb(242, 122, 104) 1%,
     rgb(255, 124, 38) 24%,
@@ -65,9 +96,9 @@
     rgb(255, 122, 40) 59%,
     rgb(255, 123, 35) 68%,
     rgb(234, 88, 51) 84%
-  );
-  width: 88vw;
-  height: 100%;
+  ); */
+  width: auto;
+  height: auto;
 }
 
 .infocontainer {
@@ -75,17 +106,16 @@
   height: 93vh;
   width: 82vw;
   margin: 80px 0;
-  justify-content: space-around;
   display: flex;
 }
 
 .devinfo {
-  background: linear-gradient(
+  /* background: linear-gradient(
     45deg,
     rgb(249, 89, 89) 0%,
     rgb(254, 144, 144) 45%,
     rgb(255, 92, 92) 100%
-  );
+  ); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,30 +152,11 @@
   margin: 20px;
 }
 
-.buttons {
-  margin-top: 38px;
-}
-
-.buttons button {
-  font-size: 14px;
-  padding: 7px 13px;
-  border-radius: 31px;
-  background-color: sandybrown;
-  color: rgb(0, 0, 0);
-  margin: 2px 3px;
-  font-weight: bold;
-  cursor: pointer;
-  vertical-align: top;
-}
-
-.buttons button:hover {
-  color: sandybrown;
-  background-color: black;
-}
 
 .devpic img {
   height: 88vh;
   width: auto;
+  cursor: pointer;
 }
 
 .contactform h1 {
@@ -156,24 +167,27 @@
 .contactform {
   font-family: "Noto Sans", sans-serif;
   padding: 0px 34px;
-  padding-top: 144px;
+  padding-top: 744px;
+  margin-top: 10vh;
   background: linear-gradient(
     45deg,
     rgb(249, 89, 89) 0%,
     rgb(254, 144, 144) 45%,
     rgb(255, 92, 92) 100%
   );
-  margin-top: 10vh;
+  height: 90vh;
+  width: 186vh;
+  text-align: center;
 }
 
 .contactform div {
   padding: 0px 0px;
   display: flex;
   align-content: center;
-  flex-wrap: nowrap;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  font-weight: bold;
 }
 .contactform div input {
   width: 30vw;
@@ -203,9 +217,27 @@
 
 .form-label:hover + .ps {
   display: block;
-  color: rgb(236, 149, 17);
+  color: rgb(255, 255, 255);
 }
 
 .ps {
   display: none;
+  font-size: 15px;
+  font-weight: lighter; 
+}
+
+.submit-btn {
+  font-size: 14px;
+  padding: 7px 13px;
+  border-radius: 31px;
+  background-color: sandybrown;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.submit-btn button:hover {
+  color: sandybrown;
+  background-color: black;
 }
