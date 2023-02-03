@@ -33,17 +33,36 @@
 }
 
 .main {
-  background-color: rgb(248, 246, 119);
+  background: linear-gradient(
+    45deg,
+    rgb(232, 136, 88) 7%,
+    rgb(241, 116, 50) 19%,
+    rgb(241, 116, 50) 32%,
+    rgb(251, 149, 94) 47%,
+    rgb(251, 149, 94) 47%,
+    rgb(251, 149, 94) 61%,
+    rgb(247, 122, 93) 93%
+  );
   width: 88vw;
   height: auto;
 }
 
 .container {
   display: flex;
+  background: linear-gradient(
+    45deg,
+    rgb(232, 136, 88) 7%,
+    rgb(241, 116, 50) 19%,
+    rgb(241, 116, 50) 32%,
+    rgb(251, 149, 94) 47%,
+    rgb(251, 149, 94) 47%,
+    rgb(251, 149, 94) 61%,
+    rgb(247, 122, 93) 93%
+  );
 }
 
 .infocontainer {
-  background-color: cornsilk;
+ /* background-color: cornsilk; */
   height: 93vh;
   width: 82vw;
   margin: 80px 0;
@@ -52,7 +71,7 @@
 }
 
 .devinfo {
-  background-color: cornsilk;
+  /* background-color: cornsilk; */
   margin-left: 15px;
   display: flex;
   justify-content: center;
@@ -120,6 +139,16 @@
   font-family: "Noto Sans", sans-serif;
   padding: 0px 34px;
   padding-top: 144px;
+  background: linear-gradient(
+    45deg,
+    rgb(252, 234, 187) 6%,
+    rgb(252, 205, 77) 35%,
+    rgb(248, 181, 0) 55%,
+    rgb(251, 223, 147) 95%,
+    rgb(251, 223, 147) 95%,
+    rgb(252, 234, 187) 100%
+  );
+  margin-top: 10vh;
 }
 
 .contactform div {
@@ -140,7 +169,7 @@
 
 #emailhelp {
   font-size: 13px;
-  color: rgb(30, 30, 163);
+  color: rgb(26, 26, 153);
   margin: 0 5px;
 }
 
