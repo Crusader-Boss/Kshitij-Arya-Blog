@@ -51,6 +51,7 @@ ul {
 
 .icons {
   margin-top: 15px;
+  margin-left: 54px;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -154,9 +155,10 @@ ul {
 
 
 .devpic img {
-  height: 88vh;
+  height: 70vh;
   width: auto;
   cursor: pointer;
+  margin-top: 50px;
 }
 
 .contactform h1 {
