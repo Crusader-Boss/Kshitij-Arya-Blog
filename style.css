@@ -148,7 +148,7 @@
 }
 
 .contactform div {
-  padding: 0px 0px;
+  padding: 2px 0px;
   display: flex;
   align-content: center;
   flex-direction: column;
@@ -167,6 +167,7 @@
   font-size: 13px;
   color: rgb(26, 26, 153);
   margin: 0 5px;
+  padding: 3px 0 0 0;
 }
 
 #form-check {
@@ -216,4 +217,8 @@ h3 {
   margin-top: -300px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 30px;
+}
+
+.form-check{
+  cursor: pointer;
 }
