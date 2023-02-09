@@ -67,19 +67,6 @@
   font-weight: bold;
 }
 
-.main {
-  /* background: linear-gradient(
-    45deg,
-    rgb(242, 122, 104) 1%,
-    rgb(255, 124, 38) 24%,
-    rgb(232, 108, 87) 50%,
-    rgb(255, 122, 40) 59%,
-    rgb(255, 123, 35) 68%,
-    rgb(234, 88, 51) 84%
-  ); */
-  width: auto;
-  height: auto;
-}
 
 .infocontainer {
   /* background-color: cornsilk; */
@@ -217,4 +204,12 @@ h3 {
   margin-top: -300px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 30px;
+}
+
+.intro h2 {
+
+}
+
+.intro p {
+  
 }
