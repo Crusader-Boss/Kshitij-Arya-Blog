@@ -176,6 +176,7 @@
 #form-check input {
   width: 17px;
   margin: 6px;
+  cursor: pointer;
 }
 
 .form-label {
@@ -216,8 +217,4 @@ h3 {
   margin-top: -300px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 30px;
-}
-
-.form-check {
-  cursor: pointer;
 }
