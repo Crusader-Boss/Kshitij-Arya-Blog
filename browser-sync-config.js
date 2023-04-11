@@ -1,11 +1,11 @@
 module.exports = {
-  open: true,
-  server: {
-    baseDir: "./",
-    serveStaticOptions: {
-      extensions: ["html"],
+    open: true,
+    server: {
+        baseDir: "./",
+        serveStaticOptions: {
+            extensions: ["html"]
+        }
     },
-  },
-  files: "./",
-  ignore: ["./node_modules/*"],
+    files: "./",
+    ignore: ["./node_modules/*"]
 };
