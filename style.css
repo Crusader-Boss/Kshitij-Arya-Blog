@@ -1,6 +1,95 @@
+ /* Define CSS variables for default and dark themes */
+ :root {
+  --bg-color: white;
+  --text-color: black;
+  --link-color: blue;
+  --header-color: rgba(255, 217, 0, 0.5);
+ }
+
+.dark-theme {
+  --bg-color: rgb(39, 38, 38);
+  --text-color: white;
+  --link-color: cyan;
+  --header-color: rgba(26, 190, 190, 0.5);
+}
+
+/* Style the body element and use the CSS variables */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Style the links and use the CSS variable */
+a {
+  color: var(--link-color);
+}
+
+/* Style the theme slider */
+.theme-switch-container {
+  position: absolute;
+  top: 86px;
+  right: 488px;
+}
+
+.theme-slider {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.theme-slider input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
 /* Add some basic styling for the header */
 header {
-    background-color: rgba(33, 25, 138, 0.5); /* Make the background semi-transparent */
+    background-color: var(--header-color);
     padding: 20px;
     text-align: center;
     position: fixed;
@@ -8,17 +97,17 @@ header {
     left: 0;
     right: 0;
     z-index: 1000;
-    backdrop-filter: blur(10px); /* Apply the acrylic effect */
+    backdrop-filter: blur(15px);
   }
   
   header h1 {
-    color: white;
+    color: var(--text-color);
     font-size: 2rem;
     margin: 0;
   }
   
   header p {
-    color: white;
+    color: var(--text-color);
     font-size: 1rem;
     margin-top: 5px;
   }
@@ -37,14 +126,14 @@ header {
   }
   
   nav a {
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s;
   }
   
   nav a:hover {
-    color: #ccc;
+    color: var(--link-color);
   }
   
   /* Add some padding to the body to prevent content from being hidden by the header */
