@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="about_me.css">
+        <link rel="stylesheet" href="style.css">
+        <title>About Me</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="your-logo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_me.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!--  <div class="container">
+                <div class="toggle">
+                    <input type="range" id="switch" name="theme" min="0" max="1" step="1"/>
+                    <label for="switch"></label>
+                </div>
+            </div> -->
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+                <button>Go</button>
+            </div>
+        </header>
+        <div class="container">
+            <h1 class="title">About Me</h1>
+            <div class="content">
+                <img class="profile-picture" src="your_profile_picture.jpg" alt="Your Name">
+                <h2 class="name">Your Name</h2>
+                <p class="description">
+                    I'm a software engineer with a passion for creating innovative solutions and learning new technologies. I have experience in web development, mobile app development, and software design. In my free time, I enjoy hiking, photography, and exploring new places.
+                </p>
+            </div>
+            <h2 class="projects-title">My Projects</h2>
+            <div id="projectsCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="project-board">
+                            <h3>Project 1</h3>
+                            <p>Project 1 description...</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="project-board">
+                            <h3>Project 2</h3>
+                            <p>Project 2 description...</p>
+                        </div>
+                    </div>
+                    <!-- Add more carousel-items for additional projects -->
+                </div>
+                <a class="carousel-control-prev" href="#projectsCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#projectsCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <h2 class="skills-title">My Skills</h2>
+            <div class="row kanban-board">
+                <div class="col-md-4 kanban-column">
+                    <h3 class="column-title">Knows</h3>
+                    <ul class="skills-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <!-- Add more skills -->
+                    </ul>
+                </div>
+                <div class="col-md-4 kanban-column">
+                    <h3 class="column-title">Learning</h3>
+                    <ul class="skills-list">
+                        <li>Bash</li>
+                        <li>Java</li>
+                        <!-- Add more skills -->
+                    </ul>
+                </div>
+                <div class="col-md-4 kanban-column">
+                    <h3 class="column-title">Want to Learn</h3>
+                    <ul class="skills-list">
+                        <li>React.js</li>
+                        <li>Nuxt.js</li>
+                        <li>Go</li>
+                        <!-- Add more skills -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="about_me.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
