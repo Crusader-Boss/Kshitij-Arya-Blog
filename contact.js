@@ -27,3 +27,4 @@ function changeCaretColor(e) {
       forms[i].addEventListener("submit", submitForm);
     }
   });
+
