@@ -1,10 +1,16 @@
 header {
   background: whitesmoke;
+  display: flex;
   padding: 0;
-  position: fixed; /* Fixed positioning */
-  top: 0; /* Zero distance from the top edge */
-  width: 99%; /* Full width */
+  position: fixed;
+  top: 0;
+  height: 55px;
+  width: 99%;
   border-radius: 35px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .logo img {

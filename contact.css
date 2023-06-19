@@ -36,9 +36,7 @@
 }
 
 body {
-  font-family: sans-serif;
-  /* background-color: #ffffff; */
-  margin: 0;
+  margin: 55px;
   padding: 0;
   overflow: hidden;
 }
