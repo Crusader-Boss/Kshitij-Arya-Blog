@@ -1,18 +1,19 @@
 /* Light mode */
 body {
-  background-color: #282a36;
-  margin: 0px 0 0 0;
-  padding: 0;
+    background-color: #282a36;
+    margin: 0;
+    padding: 0;
 }
-p, h1, h2, h3, h4, h5, h6 {
-  color: #f8f8f2;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #f8f8f2;
 }
-#header {
-  position: fixed;
-  margin-bottom: 30px;
-  top: 0;
-  width: 100%;
-}
-.main{
-  margin: 55px 0 0 0;
+.main {
+    height: 100%;
+    margin: 25px 0 0 14px;
 }
