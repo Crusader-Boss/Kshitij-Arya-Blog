@@ -1,11 +1,14 @@
 body {
-  background-color: #0099ff;
-  margin: 55px 0 0 0;
+  background-color: #282a36;
+  margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
-.container {
+p, h1, h2, h3, h4, h5, h6 {
+  color: #f8f8f2;
+}
+
+.main {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;

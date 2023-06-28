@@ -4,35 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="about_me.css">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="/About/about_me.css">
+    <link rel="stylesheet" type="text/css" href="header.css">
     <title>About Me</title>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="your-logo.png" alt="Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about_me.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <!--  <div class="container">
-                <div class="toggle">
-                    <input type="range" id="switch" name="theme" min="0" max="1" step="1"/>
-                    <label for="switch"></label>
-                </div>
-            </div> -->
-        <div class="search-box">
-            <input type="text" placeholder="Search">
-            <button>Go</button>
-        </div>
-    </header>
-    <div class="container">
+    <div id="header"></div>
+    <div class="main">
         <h1 class="title">About Me</h1>
         <div class="content">
             <img class="profile-picture" src="your_profile_picture.jpg" alt="Your Name">
@@ -75,10 +54,14 @@
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="about_me.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('#header').load('header.html')
+        })
+    </script>
+    <script src="/About/about_me.js"></script>
 </body>
 
 </html>

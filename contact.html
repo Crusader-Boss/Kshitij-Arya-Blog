@@ -3,43 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="contact.css">
-        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="/contact/contact.css">
+        <link rel="stylesheet" type="text/css" href="header.css">
         <title>Contact Me</title>
     </head>
-    <body class="css-selector" >
-        <header>
-            <div class="logo">
-                <img src="your-logo.png" alt="Logo">
+    <body>
+        <div id="header"></div>
+        <div id="main">
+
+            <div class="conatct message" >
+                <h2>Fill in the form below to contact me</h2>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about_me.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <!--  <div class="container">
-                <div class="toggle">
-                    <input type="range" id="switch" name="theme" min="0" max="1" step="1"/>
-                    <label for="switch"></label>
-                </div>
-            </div> --> 
-            <div class="search-box">
-                <input type="text" placeholder="Search">
-                <button>Go</button>
-            </div>
-        </header>
-        <div id="contact-me">
-            <h1>Contact Me</h1>
-            <p>Please fill out this form to contact me.</p>
-            <form action="https://forms.netlify.com/forms/contact-me" method="post">
-                <input type="text" name="name" placeholder="Your name">
-                <input type="email" name="email" placeholder="Your email">
-                <textarea name="message" placeholder="Your message"></textarea>
-                <input type="submit" value="Submit">
-            </form>
+            
         </div>
-        <script src="contact.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        <script>
+            $(function () {
+                $('#header').load('header.html')
+            })
+        </script>
+    <script src="/contact/contact.js"></script>
     </body>
 </html>
