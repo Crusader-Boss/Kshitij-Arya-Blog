@@ -1,7 +1,17 @@
+:root {
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+}
+
 body {
-    background-color: #282a36;
-    margin: 0;
-    padding: 0;
+  background-color: #282a36;
+  margin: 0;
+  padding: 0;
 }
 p,
 h1,
@@ -10,8 +20,41 @@ h3,
 h4,
 h5,
 h6 {
-    color: #f8f8f2;
+  color: #f8f8f2;
+}
+a {
+  color: #8be9fd;
 }
 .main {
-    margin: 85px 0 0 14px;
+  margin: 85px 0 0 14px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(55, 53, 87);
+  border-radius: 20px;
+  margin: 8% 17% 0% 19%;
+  padding: 10px 52px 27px 43px;
+  box-shadow: 0 0 10px #ccc, 0 0 20px #bbb, 0 0 30px #aaa;
+  background-color: inset 0 0 10px #fff;
+}
+.social {
+  margin: 1px;
+}
+.social a {
+  color: rgb(55, 53, 87);
+}
+.social img {
+  margin: 0 50px 20px 40px;
+  height: 40px;
+  width: 40px;
+}
+.context {
+  margin: 6px 10px 10px 10px;
+  color: #f8f8f2;
+  font-size: 23px;
+  font-weight: lighter;
+  font-family: "Akaya Kanadaka", display;
 }
