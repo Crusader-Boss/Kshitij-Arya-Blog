@@ -12,7 +12,8 @@
 .headerog {
   position: fixed;
   display: flex;
-  margin: 3px 7px;
+  top: 10px;
+  margin-left: 7px;
   width: 98%;
   align-items: center;
   justify-content: space-between;
