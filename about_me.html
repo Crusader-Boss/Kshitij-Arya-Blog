@@ -1,71 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/About/about_me.css">
-    <link rel="stylesheet" type="text/css" href="header.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/About/about_me.css" />
+    <link rel="stylesheet" type="text/css" href="header.css" />
+    <link rel="icon" href="/Assets/logo.png" />
     <title>About Me</title>
-</head>
+  </head>
 
-<body class="body">
+  <body class="body">
     <div id="header"></div>
     <div class="main">
-        <div class="container">
-            <h1 class="title">About Me</h1>
-            <div class="content">
-                <img class="profile-picture" src="your_profile_picture.jpg" alt="Your Name">
-                <h2 class="name">Your Name</h2>
-                <p class="description">
-                    I'm a software engineer with a passion for creating innovative solutions and learning new
-                    technologies.
-                    I have experience in web development, mobile app development, and software design. In my free time,
-                    I
-                    enjoy hiking, photography, and exploring new places.
-                </p>
-            </div>
-            <h2 class="skills-title">My Skills</h2>
-            <div class="row kanban-board">
-                <div class="col-md-4 kanban-column">
-                    <h3 class="column-title">Knows</h3>
-                    <ul class="skills-list">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                        <!-- Add more skills -->
-                    </ul>
-                </div>
-                <div class="col-md-4 kanban-column">
-                    <h3 class="column-title">Learning</h3>
-                    <ul class="skills-list">
-                        <li>Bash</li>
-                        <li>Java</li>
-                        <!-- Add more skills -->
-                    </ul>
-                </div>
-                <div class="col-md-4 kanban-column">
-                    <h3 class="column-title">Want to Learn</h3>
-                    <ul class="skills-list">
-                        <li>React.js</li>
-                        <li>Nuxt.js</li>
-                        <li>Go</li>
-                        <!-- Add more skills -->
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="title">About Me</h1>
+        <div class="content">
+          <img
+            class="profile-picture"
+            src="your_profile_picture.jpg"
+            alt="Your Name"
+          />
+          <h2 class="name">Your Name</h2>
+          <p class="description">
+            I'm a software engineer with a passion for creating innovative
+            solutions and learning new technologies. I have experience in web
+            development, mobile app development, and software design. In my free
+            time, I enjoy hiking, photography, and exploring new places.
+          </p>
         </div>
+        <h2 class="skills-title">My Skills</h2>
+        <div class="row kanban-board">
+          <div class="col-md-4 kanban-column">
+            <h3 class="column-title">Knows</h3>
+            <ul class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <!-- Add more skills -->
+            </ul>
+          </div>
+          <div class="col-md-4 kanban-column">
+            <h3 class="column-title">Learning</h3>
+            <ul class="skills-list">
+              <li>Bash</li>
+              <li>Java</li>
+              <!-- Add more skills -->
+            </ul>
+          </div>
+          <div class="col-md-4 kanban-column">
+            <h3 class="column-title">Want to Learn</h3>
+            <ul class="skills-list">
+              <li>React.js</li>
+              <li>Nuxt.js</li>
+              <li>Go</li>
+              <!-- Add more skills -->
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
-        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
     <script>
-        $(function () {
-            $('#header').load('header.html')
-        })
+      $(function () {
+        $("#header").load("header.html");
+      });
     </script>
     <script src="/About/about_me.js"></script>
-</body>
-
+  </body>
 </html>
