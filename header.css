@@ -1,3 +1,5 @@
+@import url(https://fonts.bunny.net/css?family=lobster-two:400|pinyon-script:400);
+
 /* Base colors */
 :root {
   --nord0: #2e3440;
@@ -8,25 +10,24 @@
   --nord5: #e5e9f0;
   --nord6: #eceff4;
 }
-
 .headerog {
-  position: fixed;
   display: flex;
-  top: 10px;
-  margin-left: 7px;
-  width: 98%;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   background-color: var(--nord0);
-  border-radius: 20px;
-  padding: 6px;
+  border-radius: 10px;
+  padding: 20px 0px 20px 0px;
+  font-family: "Lobster Two", display;
 }
-
 .logo-container {
   float: right;
   margin: 0px 0px 0px 20px;
+  font-family: "Pinyon Script", handwriting;
   font-size: 25px;
+  text-decoration: underline;
   font-weight: bold;
+  color: deeppink;
 }
 
 .nav {
@@ -37,12 +38,13 @@
   color: var(--nord4);
   text-decoration: none;
   margin-right: 20px;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
+  text-decoration: underline;
+  padding: 3px 1px;
+  font-size: 18px;
 }
 
 .nav-link:hover {
-  color: var(--nord6);
+  color: #8be9fd;
 }
 
 .search-container {
@@ -53,7 +55,7 @@
   border: none;
   border-radius: 8px;
   width: 150px;
-  padding: 0.5rem;
+  padding: 5px;
   background-color: var(--nord3);
   caret-color: darkorchid;
 }
@@ -63,27 +65,7 @@
   border-radius: 8px;
   background-color: var(--nord1);
   color: var(--nord4);
-  padding: 0.5rem 1rem;
-  margin-left: 6px;
-}
-
-@media (max-width: 768px) {
-  .headerog {
-    padding: 0;
-  }
-
-  .logo-container {
-    float: none;
-    text-align: center;
-  }
-
-  .nav {
-    float: none;
-    text-align: center;
-  }
-
-  .search-container {
-    float: none;
-    text-align: center;
-  }
+  padding: 7px 15px;
+  margin-left: 15px;
+  margin-right: 18px;
 }
