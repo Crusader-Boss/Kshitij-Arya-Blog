@@ -1,0 +1,30 @@
+:root {
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+}
+
+body {
+  background-color: #282a36;
+  margin: 0;
+  padding: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f8f8f2;
+}
+a {
+  color: #8be9fd;
+}
+.main {
+  margin: 85px 0 0 14px;
+}
