@@ -4,11 +4,17 @@
   padding: 0;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #f8f8f2;
 }
 
-.main{
+.main {
   padding: 25px 0 0 0;
 }
 
@@ -27,11 +33,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .profile-picture {
-  width: 150px;
-  height: 150px;
   border-radius: 50%;
-  object-fit: cover;
-  opacity: 0;
 }
 
 .name {
@@ -47,18 +49,6 @@ p, h1, h2, h3, h4, h5, h6 {
   opacity: 0;
 }
 
-.project-board {
-  background-color: #ffffff;
-  border-radius: 5px;
-  padding: 1rem;
-  margin: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.carousel {
-  margin-bottom: 2rem;
-}
-
 .title,
 .skills-title {
   font-size: 2.5rem;
@@ -67,17 +57,18 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .kanban-board {
+  display: flex;
+  flex-direction: row;
   margin-bottom: 2rem;
   opacity: 0;
 }
 
 .kanban-column {
-  background-color: #e0e0e0;
-  border-radius: 5px;
+  background-color: #2e3440;
+  border-radius: 35px;
   padding: 1rem;
-  margin: 1rem;
+  margin: 10px 0px 0px 70px;
 }
-
 .column-title {
   font-size: 1.25rem;
   margin-bottom: 1rem;
@@ -89,8 +80,9 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .skills-list li {
-  background-color: #ffffff;
-  border-radius: 5px;
+  color: #f8f8f2;
+  background-color: #434c5e;
+  border-radius: 15px;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
