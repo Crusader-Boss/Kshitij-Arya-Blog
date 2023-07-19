@@ -12,6 +12,7 @@ h4,
 h5,
 h6 {
   color: #f8f8f2;
+  font-family: 'Alegreya SC', serif;
 }
 
 .main {
@@ -48,50 +49,12 @@ h6 {
   font-size: 1rem;
   line-height: 1.5;
   opacity: 0;
+  font-family: 'Nokora', sans-serif;
+  font-size: 17px;
 }
 
 .title {
   font-size: 45px;
   opacity: 0;
   margin: -20px 100px 10px 0px;
-}
-.skills-title {
-  font-size: 45px;
-  margin-bottom: 20px;
-  opacity: 0;
-  margin-left: 40%;
-  text-decoration: underline;
-}
-
-.kanban-board {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 2rem;
-  opacity: 0;
-  margin-left: 26%;
-}
-
-.kanban-column {
-  background-color: #2e3440;
-  border-radius: 25px;
-  padding: 2rem;
-  margin: 10px 0px 0px 30px;
-}
-.column-title {
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-}
-
-.skills-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.skills-list li {
-  color: #f8f8f2;
-  background-color: #434c5e;
-  border-radius: 12px;
-  padding: 0.5rem;
-  margin-bottom: 0.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
