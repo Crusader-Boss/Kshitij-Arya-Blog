@@ -1,7 +1,14 @@
-body {
-  background-color: #282a36;
+* {
   margin: 0px;
-  padding: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0c192c;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
 }
 
 p,
@@ -13,6 +20,60 @@ h5,
 h6 {
   color: #f8f8f2;
 }
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bubbles {
+  position: relative;
+  display: flex;
+}
+
+.bubbles span {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: #4fc3dc;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #4fc3dc44,
+  0 0 50px #4fc3dc,
+  0 0 100px #4fc3dc;
+  animation: animate 15s linear infinite;
+  animation-duration: calc(115s / var(--i));
+}
+
+.bubbles span:nth-child(even){
+  background: #ff2d75;
+  box-shadow: 0 0 0 10px #ff2d7544,
+  0 0 50px #ff2d75,
+  0 0 100px #ff2d75;
+}
+
+@keyframes animate {
+  0%
+  {
+    transform: translateY(100vh) scale(0);
+  }
+  25% {
+    transform: translateY(72.5vh) scale(0.25);
+  }
+  50%{
+    transform: translateY(45vh) scale(0.5);
+  }
+  75% {
+    transform: translateY(17.5vh) scale(0.75);
+  }
+  100%
+  {
+    transform: translateY(-10vh) scale(1);
+  }
+}
+
 .main {
   position: absolute;
   width: 100%;
