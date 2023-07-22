@@ -40,36 +40,30 @@ h6 {
   background: #4fc3dc;
   margin: 0 4px;
   border-radius: 50%;
-  box-shadow: 0 0 0 10px #4fc3dc44,
-  0 0 50px #4fc3dc,
-  0 0 100px #4fc3dc;
+  box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;
   animation: animate 15s linear infinite;
   animation-duration: calc(115s / var(--i));
 }
 
-.bubbles span:nth-child(even){
+.bubbles span:nth-child(even) {
   background: #ff2d75;
-  box-shadow: 0 0 0 10px #ff2d7544,
-  0 0 50px #ff2d75,
-  0 0 100px #ff2d75;
+  box-shadow: 0 0 0 10px #ff2d7544, 0 0 50px #ff2d75, 0 0 100px #ff2d75;
 }
 
 @keyframes animate {
-  0%
-  {
+  0% {
     transform: translateY(100vh) scale(0);
   }
   25% {
     transform: translateY(72.5vh) scale(0.25);
   }
-  50%{
+  50% {
     transform: translateY(45vh) scale(0.5);
   }
   75% {
     transform: translateY(17.5vh) scale(0.75);
   }
-  100%
-  {
+  100% {
     transform: translateY(-10vh) scale(1);
   }
 }
@@ -79,4 +73,42 @@ h6 {
   width: 100%;
   height: 100%;
   margin: 55px;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 14px;
+  padding: 10px;
+  width: 650px;
+  margin-left: 26%;
+}
+
+.form {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.fname, .femail, .fmessage, .submitbtn {
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.fname {
+  background-color: #d8dfe4;
+}
+
+.femail {
+  background-color: #eceff4;
+}
+
+.fmessage {
+  background-color: #859900;
+}
+
+.submitbtn {
+  background-color: #d08770;
+  color: white;
+  margin-top: 7px;
 }
