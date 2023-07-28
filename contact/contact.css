@@ -41,7 +41,7 @@ h6 {
   margin: 0 4px;
   border-radius: 50%;
   box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;
-  animation: animate 15s linear infinite;
+  animation: circles 15s linear infinite;
   animation-duration: calc(115s / var(--i));
 }
 
@@ -50,7 +50,7 @@ h6 {
   box-shadow: 0 0 0 10px #ff2d7544, 0 0 50px #ff2d75, 0 0 100px #ff2d75;
 }
 
-@keyframes animate {
+@keyframes circles {
   0% {
     transform: translateY(100vh) scale(0);
   }
@@ -76,16 +76,74 @@ h6 {
 }
 
 .box {
-  background-color: #282a3677;
-  backdrop-filter: blur(10px);
-  position: absolute;
+  position: relative;
+  width: 450px;
+  height: 450px;
   top: 30%;
   left: 45%;
   transform: translate(-50%, -50%);
-  border-radius: 16px;
-  padding: 10px;
-  width: 450px;
-  height: 340px;
+  background: repeating-conic-gradient(
+    from var(--z),
+    #ff2770 0%,
+    #ff2770 5%,
+    transparent 5%,
+    transparent 40%,
+    #ff2770 50%
+  );
+  animation: lines 4s linear infinite;
+  border-radius: 20px;
+}
+
+.contact-title {
+  position: absolute;
+  margin: 25px 0px 0px 145px;
+  color: beige;
+  z-index: 2;
+  font-size: 34px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@property --z {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes lines {
+  0% {
+    --z: 0deg;
+  }
+  100% {
+    --z: 360deg;
+  }
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: repeating-conic-gradient(
+    from var(--z),
+    #45f3ff 0%,
+    #45f3ff 5%,
+    transparent 5%,
+    transparent 40%,
+    #45f3ff 50%
+  );
+  animation: lines 4s linear infinite;
+  animation-delay: -1s;
+  border-radius: 20px;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  background: #2d2d39;
+  border-radius: 15px;
+
 }
 
 .form {
@@ -93,22 +151,25 @@ h6 {
   width: 300px;
   display: flex;
   flex-direction: column;
+  z-index: 2;
 }
 
 .fname,
 .femail,
 .fmessage,
 .submitbtn {
-  border: 1px solid #ccc;
+  border: 2px solid #564abd;
   border-radius: 20px;
-  padding: 17px;
+  padding: 18px;
   overflow: hidden;
-  margin: 7px;
+  margin: 12px 0px 0px 0px;
+  z-index: 2;
 }
 
 .fname {
   background-color: #2e3440;
   color: #eaecf0;
+  margin-top: 110px;
 }
 
 .femail {
@@ -128,3 +189,4 @@ h6 {
   background-color: #4c566a;
   color: white;
 }
+
