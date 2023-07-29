@@ -17,11 +17,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 4px 0px 4px 0px;
+  padding: 5px 0px 5px 0px;
 }
 .logo-container {
-  float: right;
-  margin: 0px 0px 0px 20px;
+  margin-left: -60px;
   font-family: "Pinyon Script", handwriting;
   font-size: 1.5em;
   text-decoration: underline;
@@ -32,6 +31,8 @@
 .nav {
   display: flex;
   align-items: center;
+  font-family: 'lobster two';
+  font-size: 1.1em;
 }
 
 .nav ol {
@@ -79,13 +80,14 @@
 
 .search-container {
   display: flex;
+  margin-right: -70px;
 }
 
 .search-input {
   border: none;
-  border-radius: 8px;
-  width: 150px;
-  padding: 5px;
+  border-radius: 10px;
+  width: 180px;
+  padding: 7px;
   background-color: var(--nord3);
   caret-color: white;
 }
@@ -93,7 +95,7 @@
 .search-button {
   cursor: pointer;
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   font-family: "Lobster Two";
   background-color: var(--nord1);
   color: var(--nord4);
