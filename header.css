@@ -45,6 +45,7 @@
 }
 
 .nav ol li a {
+  color: aquamarine;
   text-decoration: none;
   padding: 0.2em 1.2em 0.9em 1.2em;
   border-radius: 10px 10px 0 0;
@@ -62,7 +63,6 @@
   width: 100%;
   height: 41px;
   border-radius: 10px 10px 0 0;
-  background: #853333;
   transform-origin: bottom;
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
   transform: scaleY(0.05);
