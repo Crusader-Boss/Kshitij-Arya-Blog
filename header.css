@@ -50,36 +50,6 @@ nav a {
   z-index: 1;
 }
 
-span {
-  position: absolute;
-  top: 0;
-  left: 35px;
-  width: 90px;
-  height: 50px;
-  background: linear-gradient( 45deg, #2e3192, #1bffff);
-  border-radius: 8px;
-  transition: 0.5s ease;
-}
-
-nav a:nth-child(1):hover~span {
-  left: 35px;
-}
-
-nav a:nth-child(2):hover~span {
-  left: 133px;
-  width: 120px;
-}
-
-nav a:nth-child(3):hover~span {
-  left: 265px;
-  width: 100px;
-}
-
-nav a:nth-child(4):hover~span {
-  left: 380px;
-  width: 130px;
-}
-
 .search-container {
   display: flex;
   margin-right: -70px;
