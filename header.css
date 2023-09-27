@@ -59,9 +59,10 @@ nav a {
   border: none;
   border-radius: 10px;
   width: 180px;
-  padding: 7px;
+  padding: 8px;
   background-color: var(--nord3);
-  caret-color: white;
+  caret-color: #ff79c6;
+  color: #f8f8f2;
 }
 
 .search-button {
