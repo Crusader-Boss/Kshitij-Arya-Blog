@@ -34,8 +34,8 @@ h6 {
 
 .profile-picture {
   width: 200px;
-  height: 230px;
-  border-radius: 50%;
+  height: 200px;
+  border-radius: 30%;
   margin: -10px 100px 0px 0px;
 }
 .name {
@@ -46,11 +46,15 @@ h6 {
 }
 
 .description {
-  font-size: 1rem;
   line-height: 1.5;
   opacity: 0;
+  background-color: rgb(55, 53, 87);
   font-family: 'Nokora', sans-serif;
   font-size: 17px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #ccc, 0 0 20px #bbb, 0 0 30px #aaa;
+  background-color: inset 0 0 10px #fff;
+  padding: 35px 45px 35px 45px;
 }
 
 .title {
