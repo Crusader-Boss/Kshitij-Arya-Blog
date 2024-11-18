@@ -1,15 +1,5 @@
-:root {
-  --nord0: #2e3440;
-  --nord1: #3b4252;
-  --nord2: #434c5e;
-  --nord3: #4c566a;
-  --nord4: #d8dee9;
-  --nord5: #e5e9f0;
-  --nord6: #eceff4;
-}
-
 body {
-  background-color: #0c192c;
+  background-color: #0D1321;
   margin: 0;
   padding: 0;
 }
@@ -20,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #f8f8f2;
+  color: #F0EBD8;
 }
 a {
   color: #8be9fd;
@@ -33,7 +23,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(55, 53, 87);
+  background-color: #3E5C76;
   border-radius: 20px;
   margin: 8% 17% 0% 19%;
   padding: 10px 52px 27px 43px;
@@ -53,7 +43,7 @@ a {
 }
 .context {
   margin: 6px 10px 10px 10px;
-  color: #f8f8f2;
+  color: #F0EBD8;
   font-size: 23px;
   font-weight: lighter;
   font-family: "Akaya Kanadaka", display;
