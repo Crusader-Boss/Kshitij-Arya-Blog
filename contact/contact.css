@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #0c192c;
+  background-color: #0D1321;
   margin: 0px;
   padding: 0px;
   min-height: 100vh;
@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #f8f8f2;
+  color: #748CAB;
 }
 
 .container {
@@ -189,4 +189,3 @@ h6 {
   background-color: #4c566a;
   color: white;
 }
-
