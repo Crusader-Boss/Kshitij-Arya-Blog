@@ -1,15 +1,5 @@
 @import url(https://fonts.bunny.net/css?family=lobster-two:400|pinyon-script:400);
 
-/* Base colors */
-:root {
-  --nord0: #2e3440;
-  --nord1: #3b4252;
-  --nord2: #434c5e;
-  --nord3: #4c566a;
-  --nord4: #d8dee9;
-  --nord5: #e5e9f0;
-  --nord6: #eceff4;
-}
 .headerog {
   width: 100%;
   height: 50px;
@@ -25,7 +15,7 @@
   font-size: 1.5em;
   text-decoration: underline;
   font-weight: bold;
-  color: rgb(243, 37, 106);
+  color: gold;
 }
 
 nav {
@@ -50,6 +40,11 @@ nav a {
   z-index: 1;
 }
 
+nav a:hover {
+  color: #F0EBD8;
+  scale: 1.2;
+ }
+
 .search-container {
   display: flex;
   margin-right: -70px;
@@ -60,7 +55,7 @@ nav a {
   border-radius: 10px;
   width: 180px;
   padding: 8px;
-  background-color: var(--nord3);
+  background-color: #3E5C76;
   caret-color: #ff79c6;
   color: #f8f8f2;
 }
@@ -70,8 +65,8 @@ nav a {
   border: none;
   border-radius: 12px;
   font-family: "Lobster Two";
-  background-color: var(--nord1);
-  color: var(--nord4);
+  background-color: #748CAB;
+  color: #F0EBD8;
   padding: 7px 15px;
   margin-left: 15px;
   margin-right: 18px;
