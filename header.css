@@ -1,7 +1,7 @@
 @import url(https://fonts.bunny.net/css?family=lobster-two:400|pinyon-script:400);
 
 .headerog {
-  width: 100%;
+  width: 100vw;
   height: 50px;
   background: #1d2d44;
   display: flex;
